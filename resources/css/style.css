@@ -1,0 +1,39 @@
+html {
+  font-size: 18px;
+  background-color: white;
+  font-family: sans-serif;
+  line-height: 1.15em;
+  display: block;
+}
+
+body {
+  font-family: Helvetica;
+  line-height: 1.4em;
+  margin: 0;
+  display: block;
+}
+
+.company {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+
+.company .img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+
+img {
+  border-style: none;
+}
